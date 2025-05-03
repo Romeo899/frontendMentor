@@ -56,3 +56,16 @@ h1.fancyHeading {
     color: #312e2c;
     
 }
+
+/* Preparation Section */
+
+.preparationSection {
+    background-color: #fff7fb;
+    padding: 0.5rem 1rem 1rem 1rem;
+}
+
+
+.preparationSection>h3 {
+    color: #7a284e;
+
+}
