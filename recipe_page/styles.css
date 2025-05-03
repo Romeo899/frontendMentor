@@ -43,6 +43,10 @@ body {
     border-bottom: 1px solid #eee;
 }
 
+span {
+    font-weight: bold;
+}
+
 /* Main Hero Image Styles */
 
 .mainImage {
@@ -67,5 +71,23 @@ h1.fancyHeading {
 
 .preparationSection>h3 {
     color: #7a284e;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+ul {
+    padding-left: 1rem;
+} 
+
+
+ul li {
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+.preparationSection li::marker {
+    color: #7a284e;
+    font-size: 0.7rem;
 
 }
