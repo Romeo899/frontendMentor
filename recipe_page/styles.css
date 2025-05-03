@@ -34,16 +34,33 @@ body {
     font-weight: normal;
 }
 
-.marginBottom {
-    margin-bottom: 2rem;
+.paddingBottom {
+    padding-bottom: 2rem;
 }
 
-.marginBottomLine {
-    margin-bottom: 2rem;
+.paddingBottomLine {
+    padding-bottom: 1.5rem;
     border-bottom: 1px solid #eee;
 }
 
 span {
+    font-weight: bold;
+}
+
+.brown, ul li::marker, ol li::marker {
+    color: #854632;
+}
+
+h2 {
+    font-weight: normal;
+}
+
+ul li::marker{
+    font-size: 0.8rem;
+}
+
+ol li::marker {
+    font-size: 1rem;
     font-weight: bold;
 }
 
@@ -88,6 +105,20 @@ ul li {
 
 .preparationSection li::marker {
     color: #7a284e;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
 
+}
+
+/* Ingredients Section */
+
+
+/* Instructions Section */
+
+ol {
+    padding-left: 1.5rem;
+}
+
+ol li {
+    padding-left: 1rem;
+    padding-bottom: 0.5rem;
 }
