@@ -1,69 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
 
 body {
     background-color: #F3E5D7;
-    font-family: 'Segoe UI', sans-serif;
-    margin: 0;
-    padding: 2rem;
+    color: #5f564d;
+    font-family: 'Outfit', sans-serif;
     display: flex;
     justify-content: center;
-
 }
 
-.card {
-    background: #ffffff;
-    border-radius: 1rem;
+
+/* Main Card Styles */
+
+.cardContainer{
     max-width: 700px;
-    padding: 2rem;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background: #fff;
+    padding: 2.5rem 2rem 2rem 2rem;
 }
 
-.main-image {
-    width: 100%;
+.cardBody {
+    
+}
+
+
+/* MISC Resuable Styles */
+
+.roundedCorners {
     border-radius: 0.75rem;
-    margin-bottom: 1.5rem;
 }
 
-h1 {
-    font-size: 2rem;
-    margin-bottom: 0.5rem;
+.fancyHeading {
+    font-family: 'Young Serif', sans-serif;
+    font-size: 28px;
+    font-weight: normal;
 }
 
-.description {
-    color: #5f5f5f;
-    margin-bottom: 1.5rem;
-}
-
-.prep-time {
-    background-color: #fff5fa;
-    padding: 1rem;
-    border-radius: 0.5rem;
+.marginBottom {
     margin-bottom: 2rem;
 }
 
-.prep-time h3 {
-    color: #7b284f;
-    margin-top: 0;
-}
-
-ul, ol {
-    margin: 1rem 0;
-    padding-left: 1.5rem;
-}
-
-li {
-    margin-bottom: 0.5rem;
-}
-
-table {
-    width: 100%;
-    border-collapse: collapse;
-}
-
-table td {
-    padding: 0.5rem 0;
+.marginBottomLine {
+    margin-bottom: 2rem;
     border-bottom: 1px solid #eee;
 }
 
+/* Main Hero Image Styles */
 
+.mainImage {
+    width: 100%;
+}
 
+/* Main Headings */
 
+h1.fancyHeading {
+    font-size: 40px;
+    color: #312e2c;
+    
+}
