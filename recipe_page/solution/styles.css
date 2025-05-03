@@ -1,0 +1,175 @@
+/* Younger Serif regular imported from google fonts*/
+  @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+  body {
+    background-color: #f3e5d8;
+    color: #5f5f5f;
+    font-family: 'Outfit','Segoe UI', sans-serif;
+    margin: 0;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .purple::marker {
+    color: #7A284E;
+    font-size: 0.7rem;
+  }
+  
+  .brown, ul>li::marker, ol>li::marker, table tr td:nth-child(2) {
+    color: #854632;
+  }
+
+  .card {
+    background: #ffffff;
+    border-radius: 1rem;
+    max-width: 700px;
+    padding: 1.5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .main-image {
+    width: 100%;
+    border-radius: 0.75rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  h1 {
+    color: #312E2C;
+    font-size: 40px;
+    font-weight: normal;
+    line-height: 100%;
+    letter-spacing: 0px;
+    margin-bottom: 0.5rem;
+  }
+  
+  h1,h2 {
+  font-family: 'Young Serif', sans-serif;
+  }
+
+  h2 {
+    font-size: 28px;
+    font-weight: normal;
+  }
+
+
+  .description {
+    color: #5f5f5f;
+    margin-bottom: 1.5rem;
+  }
+  
+  .prep-time {
+    background-color: #fff5fa;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .prep-time h3 {
+    color: #7b284f;
+    margin-top: 0;
+  }
+
+  section {
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #eee;
+  }
+
+  section:last-of-type {
+    border-bottom: none;
+  }
+  
+  ul, ol {
+    margin: 1rem 0;
+    padding-left: 1.5rem;
+  }
+
+  ul li, ol li{
+    padding-left: 1rem;
+  }
+
+  ol{
+    margin-left: 0.25rem;
+
+  }
+  
+  li {
+    margin-bottom: 0.5rem;
+    font-size: 16px;
+  }
+
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+  }
+  
+  table td {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #eee;
+  }
+  
+span {
+  font-weight: bold;
+}
+
+/* Media queries for website responsiveness */
+
+
+/* Base styles from before remain the same */
+/* Tablet Mode */
+@media (max-width: 768px) {
+  body {
+    padding: 5rem 4rem;
+  }
+
+  .main-image {
+    max-width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 0;
+  }
+
+  .card {
+    border-radius: 1rem;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  .description {
+    font-weight: normal;
+  }
+
+ 
+  ul, ol {
+    padding-left: 1rem;
+  }
+
+  table td {
+    font-size: 0.95rem;
+  }
+}
+
+/* Mobile Responsive Design */
+
+@media (max-width: 450px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .card {
+    width: 100vw;
+    padding: 0;
+  }
+
+  .cardBody {
+    padding: 1.5rem;
+  }
+
+  h1, .description {
+    margin-bottom: 2rem;
+  }
+}
