@@ -229,5 +229,28 @@ table tr:last-child td {
 
 }
 
-/* Mobile Version max-width: 500px */
+/* Mobile Version max-width: 615px */
 
+@media (max-width: 615px) {
+
+    body {
+        padding: 0;
+    }
+
+    .cardContainer {
+        padding: 0;
+    }
+
+    .mainImage {
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .cardBody {
+        padding: 0.25rem 2rem 2rem 2rem;
+    }
+
+    h1 {
+
+    }
+}
