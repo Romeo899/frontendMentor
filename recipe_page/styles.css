@@ -122,3 +122,24 @@ ol li {
     padding-left: 1rem;
     padding-bottom: 0.5rem;
 }
+
+/* Nutrition Section */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table td {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #eee;
+}
+
+td:last-of-type{
+    font-weight: bold;
+    color: #854632;
+}
+
+table tr:last-child td {
+    border-bottom: none;
+}
