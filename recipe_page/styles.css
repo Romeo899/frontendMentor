@@ -162,6 +162,7 @@ table tr:last-child td {
     }
 
     .cardContainer {
+        max-width: 550px;
         padding: 3rem 3rem
     }
 
@@ -188,6 +189,41 @@ table tr:last-child td {
 
     ul {
         margin: 1rem 1.5rem;
+    }
+
+    /* Ingredients Section */
+
+    /* Instructions Section */
+
+    h2.fancyHeading {
+        margin-top: 1.5rem;
+    }
+    
+    ol {
+        margin-left: 1rem;
+    }
+
+    ol li {
+        padding: 0.5rem;
+    }
+
+
+    /* Nutrition Section */
+
+    h2 {
+        padding-bottom: 1rem;
+    }
+
+    .nutritionSection p{
+        padding-top: 1rem;
+    }
+
+    table td:first-child {
+        padding-left: 1.5rem;
+    }
+
+    table td:last-child {
+        padding-right: 1.5rem;
     }
 
 
