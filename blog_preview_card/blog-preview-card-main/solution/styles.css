@@ -4,76 +4,13 @@
 
 /* root element styles */
 
-html {
-    font-size: 16px;
-}
-
-body {
-    height: 100vh;
-    background-color: #F4D04E;
-}
-
-/* Centering content */
-
-body, .cardContainer {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-wrap: wrap;
-}
-
-/* Card Container Styles */
-  
-.cardContainer {
-    flex-direction: column;
-
-    
-    width: 100%;
-    max-width: 400px;
-    background-color: #fff;
-    padding: 2rem;
-    border: 1px solid #111;
-}
-
-.cardContainer > * {
-    margin-bottom: 0.5rem;
-}
-
-/* corner styles */
-
-.cardContainer, .mainImg {
-    border-radius: 0.75rem;
-}
-
-/* Main Img styles */
-
-.mainImg {
-    max-width: 100%;
-    height: auto;
-}
-
-/* card body styling */
-
-
-/* span styles */
-
-.meta {
-    display:flex;
-    flex-direction: column;
-}
-
-.tag {
-    display: block;
-    background-color: #F4D04E;
-    border-radius: 0.25rem;
-    padding: 0.25rem;
-    width: 80px;
-    font-weight: bold;
-    text-align: center;
-    
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
+    font-family: "Figtree", sans-serif;
 }
 
-.attribution {
-    display: none;
+main {
+    
 }
