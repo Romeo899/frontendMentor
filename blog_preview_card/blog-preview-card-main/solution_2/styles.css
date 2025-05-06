@@ -1,0 +1,13 @@
+/* imported font */
+
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+/* Global colour variables */
+
+:root {
+    --color-yellow: hsl(47, 88%, 63%);
+    --color-gray950: hsl(0, 0%, 7%);
+    --color-gray900: hsl(0, 0%, 42%);
+    --color-white: hsl(0, 0%, 100%);
+}
