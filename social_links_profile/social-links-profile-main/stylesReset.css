@@ -2,10 +2,14 @@
 *, *::before, *::after {
     box-sizing: border-box;
   }
-  
-  html, body {
+
+  html, body, h1, h2, h3, h4, h5, h6, p {
     margin: 0;
     padding: 0;
+  }
+  
+  html, body {
+    
     height: 100%;
     font-family: 'Inter', sans-serif;
     line-height: 1.5;
