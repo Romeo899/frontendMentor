@@ -9,6 +9,8 @@ html {
 
 body {
     min-height: 100vh;
+    box-sizing: border-box;
+
 
     font-family: 'Inter', sans-serif;
     background-color: #141414;
@@ -32,6 +34,7 @@ body {
     max-width: 400px;
     background-color: #1f1f1f;
     padding: 2rem;
+    box-sizing: border-box;
     border-radius: 0.75rem;
 }
 
@@ -125,5 +128,5 @@ ul li {
         width: 80%;
     }
 
-        
+
 }
