@@ -8,6 +8,8 @@ html {
 }
 
 body {
+    min-height: 100vh;
+
     font-family: 'Inter', sans-serif;
     background-color: #141414;
     color: #fff;
@@ -93,6 +95,7 @@ ul li {
 
 .btn:hover {
     background-color: #C4F82A;
+    color: #333;
     transition: color 0.3s ease;
 }
 
@@ -101,4 +104,26 @@ ul li {
 
 .attribution {
     display: none;
+}
+
+
+/* Media Queries */
+
+@media (max-width: 450px) {
+
+    .cardContainer {
+        padding: 1rem;
+        max-width: 300px;
+    }
+
+    .cardBody {
+        text-align: center;
+    }
+
+    ul li{
+        justify-content: center;
+        width: 80%;
+    }
+
+        
 }
