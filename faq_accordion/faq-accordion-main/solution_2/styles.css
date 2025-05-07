@@ -38,10 +38,6 @@ body {
 
 
 main.cardContainer {
-    /* background-image: url(../assets/images/background-pattern-desktop.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-color: var(--color-purple100); */
     min-height: 100vh;
     min-width: 100vw;
     display: flex;
@@ -57,11 +53,13 @@ main.cardContainer {
 .card {
     display: flex;
     flex-flow: column wrap;
-    gap: 15px;
+    box-sizing: border-box;
+    gap: 10px;
 
     background-color: var(--color-white);
-    height: 500px;
-    padding: 2rem;
+    height: auto;
+    aspect-ratio: 4/3;
+    padding: 1rem 1.5rem;
     border-radius: 0.75rem;
 
 }
@@ -70,7 +68,7 @@ main.cardContainer {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    gap: 20px;
+    gap: 1rem;
 
     text-align: center;
     height: 20%;
@@ -79,11 +77,12 @@ main.cardContainer {
 }
 
 .starIcon {
-    height: 100%;
+    height: 40%;
 }
 
 .title {
-    font-size: 3rem;
+    font-size: 2.5rem;
+    color: var(--color-purple950)
 }
 
 .questionContainer {
@@ -93,15 +92,20 @@ main.cardContainer {
     gap: 20px;
     justify-content: space-between;
 
-    margin: 5px 2px;
-    border-bottom: 1px solid black;
+    margin: 10px 0 10px 0;
+    border-bottom: 1px solid var(--color-purple100);
 }
 
 .question {
     font-size: 0.75rem;
+    color: var(--color-purple950)
 }
 
 /* button styles */
+
+.plusIcon, .minusIcon {
+    height: 20px;
+}
 
 .minusIcon {
     display: none;
