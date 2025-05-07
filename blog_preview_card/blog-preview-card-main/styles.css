@@ -1,0 +1,143 @@
+/* Fonts Imported */
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+/* Global CSS variables */
+
+:root {
+    --color-yellow: hsl(47, 88%, 63%);
+    --color-gray950: hsl(0, 0%, 7%);
+    --color-gray500: hsl(0, 0%, 42%);
+    --color-white: hsl(0, 0%, 100%);
+}
+
+* {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Figtree', sans-serif;
+}
+
+/* Body & Card Styles */
+
+main {
+    background-color: var(--color-yellow);
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+}
+
+.card, .cardContent {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    gap: 10px;
+}
+
+.card {
+    background-color: var(--color-white);
+    width: 300px;
+    padding: 10px 15px;
+
+    border-radius: 0.75rem;
+    border: 1px solid black;
+
+    box-shadow: 5px 7px 0 0;
+}
+
+
+/* Main Img styles */
+
+.mainImg {
+    width: 100%;
+    border-radius: 0.75rem;
+    margin-bottom: 10px;
+}
+
+/* tag styles */
+
+span {
+    display: block;
+}
+
+.tag {
+    background-color: var(--color-yellow);
+    padding: 5px 10px;
+    width: fit-content;
+    border-radius: 0.25rem;
+
+    font-weight: 800;
+    font-size: 0.75rem;
+    margin-bottom: 5px;
+
+}
+
+.date {
+    font-weight: 500;
+    font-size: 0.75rem;
+
+    margin-bottom: 5px;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: 800;
+
+    margin-bottom: 7px;
+}
+
+.description {
+    color: var(--color-gray500);
+    font-weight: 400;
+    font-size: 14px;
+
+    margin-bottom: 10px;
+}
+
+/* author container styles */
+
+.authorContainer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    gap: 10px;
+}
+
+.authorImg {
+    width: 25px;
+    height: auto;
+}
+
+.name {
+    font-size: 0.85rem;
+    font-weight: bold;
+}
+
+
+
+/* attribution */
+
+.attribution {
+    position: absolute;
+    left: 50;
+    bottom: 0;
+}
+
+
+/* responsive design */
+
+@media (max-width: 350px) {
+    .card {
+        width: 250px;
+    }
+
+    .attribution {
+        text-align: center;
+    }
+}
