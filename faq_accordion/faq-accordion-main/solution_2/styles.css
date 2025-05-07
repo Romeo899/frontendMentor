@@ -20,12 +20,30 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+/* background styles */
+
+body {
+    min-height: 100vh;
+}
+
 /* centering content styles */
 
-main.cardContainer {
+body {
+    background-image: url(../assets/images/background-pattern-desktop.svg);
+    background-size: 100% auto;
+    
+    background-repeat: no-repeat;
     background-color: var(--color-purple100);
-    min-height: 100vh;
+}
 
+
+main.cardContainer {
+    /* background-image: url(../assets/images/background-pattern-desktop.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: var(--color-purple100); */
+    min-height: 100vh;
+    min-width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -42,7 +60,7 @@ main.cardContainer {
     gap: 15px;
 
     background-color: var(--color-white);
-    height: 400px;
+    height: 500px;
     padding: 2rem;
     border-radius: 0.75rem;
 
@@ -53,8 +71,11 @@ main.cardContainer {
     align-items: center;
     justify-content: flex-start;
     gap: 20px;
+
     text-align: center;
     height: 20%;
+
+    margin-bottom: 20px;
 }
 
 .starIcon {
@@ -68,7 +89,22 @@ main.cardContainer {
 .questionContainer {
     display: flex;
     align-items: center;
+    flex-flow: row wrap;
+    gap: 20px;
     justify-content: space-between;
+
+    margin: 5px 2px;
+    border-bottom: 1px solid black;
+}
+
+.question {
+    font-size: 0.75rem;
+}
+
+/* button styles */
+
+.minusIcon {
+    display: none;
 }
 
 .answer {
