@@ -1,9 +1,79 @@
 /* Fonts imported */
 
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* global css variables */
+
+:root {
+    --color-white: hsl(0, 100%, 100%);
+    --color-purple100: hsl(275, 100%, 97%);
+    --color-purple600: hsl(292, 16%, 49%);
+    --color-purple950: hsl(292, 42%, 14%);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* centering content styles */
+
+main.cardContainer {
+    background-color: var(--color-purple100);
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* card styles */
 
 
+.card {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 15px;
 
+    background-color: var(--color-white);
+    height: 400px;
+    padding: 2rem;
+    border-radius: 0.75rem;
 
+}
+
+.titleContainer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    text-align: center;
+    height: 20%;
+}
+
+.starIcon {
+    height: 100%;
+}
+
+.title {
+    font-size: 3rem;
+}
+
+.questionContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.answer {
+    display: none;
+}
 
 
 
