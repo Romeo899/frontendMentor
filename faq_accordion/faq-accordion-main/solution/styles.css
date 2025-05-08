@@ -1,0 +1,97 @@
+/* Fonts Imported */
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/* Global styles */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* colors */
+
+:root {
+  --color-white: hsl(0, 100%, 100%);
+  --color-primary-purple-100: hsl(275, 100%, 97%);
+  --color-light-pink: hsla(274, 100%, 97%, 1);
+  --color-pale-purple: hsla(292, 16%, 49%, 1);
+  --color-dark-purple: hsl(292, 42%, 14%);
+  --color-pink: hsla(281, 83%, 54%, 1);
+}
+
+/* body styles */
+
+body {
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  
+  background-image: url(../assets/images/background-pattern-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+
+  margin: 0;
+  
+}
+
+main {
+  max-width: 600px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0px 32px 56px 0px hsla(281, 100%, 23%, 0.1);
+  background-color: var(--color-white);
+  /* margin: 9rem 1.5rem; */
+}
+
+
+/* line styles */
+
+hr {
+  height: 1px; 
+  background: var(--color-light-pink);
+  border: none;
+}
+
+/* Container Styles */
+.faq-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+}
+
+/* title styles */
+
+.faq-container .header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+}
+
+.faq-container .header img {
+  width: 24px;
+  height: 24px;
+}
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+  body {
+    background-image: url(../assets/images/background-pattern-mobile.svg);
+  }
+}
