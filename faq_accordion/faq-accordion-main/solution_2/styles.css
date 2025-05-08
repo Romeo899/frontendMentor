@@ -1,5 +1,136 @@
+/* Fonts Imported */
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* color - Global CSS Variables */
+
+:root {
+    --color-white: hsl(0, 100%, 100%);
+    --color-purple100: hsl(275, 100%, 97%);
+    --color-purple99: hsla(274, 100%, 97%, 1);
+    --color-purple200: hsla(292, 16%, 49%, 1);
+    --color-purple950: hsl(292, 42%, 14%);
+    --color-pink: hsla(281, 83%, 54%, 1);
+}
+
+/* body styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+
+    font-size: 16px;
+}
+
+body {
+    min-height: 100vh;
 
 
+    background-color: var(--color-purple100);
+    background-image: url(../assets/images/background-pattern-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+main.cardContainer {
+    height: 80%;
+    max-width: 500px;
+
+    background-color: var(--color-white);
+    border-radius: 0.75rem;
+    padding: 2rem;
+
+}
+
+/* card styles */
+
+.card {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+/* title styles */
+
+.titleContainer {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+    margin-bottom: 20px;
+}
+
+/* star icon styles */
+
+.starIcon {
+    width: 2rem;
+    height: auto;
+}
+
+/* title heading styles */
+
+.title {
+    font-size: 2.5rem;
+
+    color: var(--color-purple950);
+}
+
+/* Question Container */
+
+.questionContainer {
+    padding: 15px 0;
+    border-bottom: 1px var(--color-purple100) solid;
+}
+
+/* question styles */
+
+.question {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+.question > h1 {
+    font-weight: 600;
+
+    max-width: 85%;
+}
+
+
+/* Plus & minus icon styles */
+
+.minus, .plus {
+    width: 1.5rem;
+    height: auto;
+}
+
+
+/* answer styles */
+
+.answerContainer {
+    margin: 0.75rem 0;
+}
+
+.answerContainer > p {
+    color: var(--color-purple200)
+}
+
+/* hide answer section */
+
+.answerContainer, .minus {
+    display: none;
+}
 
 
 /* Attribution styles */
