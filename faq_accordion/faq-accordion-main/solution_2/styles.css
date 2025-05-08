@@ -90,6 +90,11 @@ main.cardContainer {
     border-bottom: 1px var(--color-purple100) solid;
 }
 
+.questionContainer:last-of-type {
+    border-bottom: none;
+    padding: 15px 0 5px 0;
+}
+
 /* question styles */
 
 .question {
@@ -136,4 +141,19 @@ main.cardContainer {
 /* Attribution styles */
 .attribution {
     display: none;
+}
+
+/* Responsive Design */
+
+@media (max-width: 500px) {
+    body {
+        background-image: url(../assets/images/background-pattern-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+    }
+
+    .cardContainer {
+        width: 85%;
+        padding: 0.5rem;
+    }
 }
