@@ -137,10 +137,24 @@ main.cardContainer {
     display: none;
 }
 
+/* Positioning attribution part */
 
-/* Attribution styles */
+.cardContainer {
+    position: relative;
+}
+
 .attribution {
-    display: none;
+    position: absolute;
+    left: 50;
+    bottom: 0;
+
+    display: block;
+}
+
+/* hover on question styles */
+
+.question:hover {
+    cursor: pointer;
 }
 
 /* Responsive Design */
